@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+section{
+     margin: 0px 150px 150px 50px;
+     text-align: center;
+}
+
+body::before{
+    content: "";
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background-color: rgb(0, 0, 0,.5);
+    z-index: -1;
+}
+header{
+    position: sticky;
+    top: 0px;
+    background-color: lightskyblue;
+    z-index: 1;
+}
+header nav{
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+nav img{
+    width: 50px;
+    border-radius: 50%;
+}
+header a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: verdana;
+    padding: 20px;
+    display: block;
+
+}
+header a:hover{
+    background-color: rgb(0,0,0,.3);
+}
+header li{
+    list-style: none;
+}
+header nav ul{
+    display: flex;    
+    flex-wrap: wrap;
+    
+}
+header nav ul li ul{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: lightskyblue;
+    width: 180px;
+    display: none;
+}
+header nav ul li ul li{
+    position: relative; 
+}
+header nav ul li ul li ul{
+    position: absolute;
+    top: 0px;
+    left: 180px;  
+}
+header nav ul li:hover>ul{
+    display: block;
+}
+section section{
+    width: 65vw;
+    text-align: center;
+    
+}
+section article p{
+    text-align: justify;
+}
+section p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section h2{
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+}
+h1{
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+section article h2{
+    position: sticky;
+    top: 64px;
+    background-color: black;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+article ul{
+    text-align: justify;
+    padding-left: 50px;
+    list-style: square;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+article ul li{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+footer a{
+    text-decoration: none;  
+}
+footer{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    background-color: rgb(152, 24, 202,.5);
+}
+
+footer li{
+    list-style: none;
+    margin: 0 20px 20px 20px; 
+}
+footer ul{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+footer ul li a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer i:hover{
+color: red;
+font-size: 3.2em;
+}
+.general{
+    width: 800px;
+    height: 290px;
+    margin-bottom: 60px;
+}
+.back{
+    background-color: white;
+    /* border-radius: 50%; */
+}
+.bord{
+    border-radius: 50%;
+}
+
+
+
