@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La ruta de un desarrollador</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="webfonts/all.css">
+    <link rel="shortcut icon" href="Assets/hacker.svg" type="image/x-icon">
+</head>
+<body>
+    <img src="Assets/baner.jpg" alt="Baner" class="baner">
+    <header>
+        <nav>
+            <img src="Assets/hacker.svg" alt="">
+            <ul>
+                <li><a href="index.html">Inicio</a>
+                    <ul>
+                        <li><a href="index.html#front">Desarrollador Front-End</a></li>
+                        <li><a href="index.html#back">Desarrollador Back-End</a></li>
+                        <li><a href="index.html#full">Desarrollador Full-Stack</a></li>
+                        <li><a href="index.html#software">Desarrollador de Software</a></li>
+                        <li><a href="index.html#DB">Desarrollador de Bases de Datos</a></li>
+                    </ul>
+                </li>
+                <li><a href="Desarrollo-Web.html">Desarrollo Web</a>
+                    <ul>
+                        <li><a href="Desarrollo-Web.html#html">HTML</a></li>
+                        <li><a href="Desarrollo-Web.html#css">CSS</a></li>
+                        <li><a href="Desarrollo-Web.html#java-script">Java-Script</a></li>
+                        <li><a href="Desarrollo-Web.html#mean" class="flecha">MEAN <i
+                                    class="fas fa-chevron-right"></i></a>
+                            <ul>
+                                <li><a href="Desarrollo-Web.html#mongo">MongoDB</a></li>
+                                <li><a href="Desarrollo-Web.html#express">Express</a></li>
+                                <li><a href="Desarrollo-Web.html#angular">Angular </a></li>
+                                <li><a href="Desarrollo-Web.html#node">Node.js</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Desarrollo-Web.html#mern" class="flecha">MERN<i
+                                    class="fas fa-chevron-right"></i></a>
+                            <ul>
+                                <li><a href="Desarrollo-Web.html#mongo">MongoDB</a></li>
+                                <li><a href="Desarrollo-Web.html#express">Express</a></li>
+                                <li><a href="Desarrollo-Web.html#react">React.js</a></li>
+                                <li><a href="Desarrollo-Web.html#node">Node.js</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="Desarrollo-De-Software.html" style="background-color: rgb(0,0,0,.3);">Desarrollo de Software</a>
+                    <ul>
+                        <li><a href="Desarrollo-De-Software.html#appdesk">Aplicaciones de Escritorio </a></li>
+                        <li><a href="Desarrollo-De-Software.html#appmov" class="flecha">Aplicaciones Moviles <i
+                            class="fas fa-chevron-right"></i></a>
+                            <ul>
+                                <li><a href="Desarrollo-De-Software.html#appnat">Aplicaciones Nativas</a></li>
+                                <li><a href="Desarrollo-De-Software.html#appweb">Aplicaciones Web</a></li>
+                                <li><a href="Desarrollo-De-Software.html#apphib">Aplicaciones Hibridas</a></li>
+                            </ul></li>
+                    </ul>
+                </li>
+                <li><a href="Desarrollo-De-Bases-De-Datos.html">Desarrollo de Bases de Datos</a>
+                    <ul>
+                        <li><a href="Desarrollo-De-Bases-De-Datos.html#sql">Bases de datos SQL</a></li>
+                        <li><a href="Desarrollo-De-Bases-De-Datos.html#nosql">Bases de datos NO-SQL</a></li>
+                    </ul>
+                </li>
+                <li><a href="Extras.html">Extras</a>
+                    <ul>
+                        <li><a href="#">Mejores editores de texto</a></li>
+                        <li><a href="#">Maquinas Virtuales</a></li>
+                        <li><a href="#">Sub</a></li>
+                        <li><a href="#">Sub</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1>Desarrollo de Software</h1>
+        <img src="Assets/softwaredev.jpg" alt="desarrollo de software" class="general bord">
+        <article id="appdesk">
+            <h2>Aplicaciones De Escritorio</h2>
+            <img src="Assets/desktopapp.jpg" alt="apps de escritorio" class="general bord">
+            <p>
+                Las aplicaciones de escritorio son aquellas orientadas a su uso en los ordenadores personales. A
+                diferencia de las aplicaciones web, se instalan directamente sobre el sistema operativo. <br><br>
+
+                En el desarrollo de software uno de los principales problemas que se plantea es conseguir la
+                portabilidad de la aplicación, es decir, la capacidad de que pueda instalarse y ejecutarse sobre
+                distintas plataformas.<br><br>
+
+                Los desarrolladores de aplicaciones de escritorio se enfrentan especialmente con este problema ya que
+                están destinadas al uso en ordenadores personales y, cuantas más plataformas soporte mayor difusión
+                tendrá la aplicación al crecer el número de usuarios potenciales.<br><br>
+
+                En las aplicaciones compiladas nativamente, la portabilidad se consigue mediante el uso de herramientas
+                que sean capaces de transformar el código fuente al código máquina del procesador y al formato de
+                ejecutable soportado por el sistema operativo. A estas herramientas se les conoce normalmente como
+                toolchain (compilador, enlazador, librerías, etcétera) y varían de una plataforma a otra.<br><br>
+
+                Incluso el código fuente puede variar en ciertos detalles en función de la plataforma de destino. De ahí
+                que el esfuerzo en el desarrollo y mantenimiento de una aplicación crezca con el número de plataformas
+                soportadas.<br><br>
+
+                Otro enfoque más práctico a la hora de tratar la portabilidad son los lenguajes basados en máquina
+                virtual. La idea consiste en diseñar la especificación de una arquitectura computacional, la máquina
+                virtual, con su propio código máquina, denominado bytecodes, que pueda ser implementada como una
+                aplicación software sobre sobre las distintas plataformas existentes. De esta manera, con un solo
+                proceso de construcción (compilación) del código fuente se garantiza la ejecución de la aplicación sobre
+                cualquier plataforma donde exista una instancia de la máquina virtual.<br><br>
+
+                Así pues, estrictamente hablando una aplicación es multiplataforma cuando se ha construido para varias
+                plataformas distintas y, por tanto, puede utilizarse en cualquiera de ellas, ya sea directamente
+                compilada o basada en máquina virtual. No obstante, las aplicaciones basadas en máquina virtual
+                adquieren el rango de multiplataforma en el momento en que son escritas, ya que las plataformas más
+                utilizadas; Windows, MacOS y Linux, disponen de la máquina virtual y pueden ejecutar dichas aplicaciones
+                una vez compiladas a los bytecodes intermedios de la máquina virtual. Por eso cuando hablamos de
+                aplicación multiplataforma, por abuso del lenguaje, solemos referirnos a aplicaciones que se ejecutan
+                sobre una máquina virtual.<br><br>
+
+                Entre la plétora de lenguajes de programación existentes podemos identificar a los siguientes como los
+                más utilizados para el desarrollo de aplicaciones de escritorio multiplataforma:
+            </p>
+            <ul>
+                <li>Plataforma Windows <ul>
+                        <li>Visual C++</li>
+                        <li>Visual Basic</li>
+                        <li>C/C++ con Qt o GTK</li>
+                        <li>Java con AWT o Swing</li>
+                    </ul>
+                </li>
+                <li>Plataforma MacOS <ul>
+                        <li>Objective-C/Swift con Cocoa</li>
+                        <li>C/C++ con Qt o GTK</li>
+                        <li>Java con AWT o Swing</li>
+                    </ul>
+                </li>
+                <li>Plataforma Linux <ul>
+                        <li>C/C++ con Qt o GTK</li>
+                        <li>Java con AWT o Swing</li>
+                    </ul>
+                </li>
+            </ul>
+        </article>
+        <article id="appmov">
+            <h2>Aplicaciones Moviles</h2>
+            <img src="Assets/movilapps.jpg" alt="aplicacion movil" class="general bord">
+            <p>
+                Una aplicación móvil, también llamada app móvil, es un tipo de aplicación diseñada para ejecutarse en un
+                dispositivo móvil, que puede ser un teléfono inteligente o una tableta. Incluso si las aplicaciones
+                suelen ser pequeñas unidades de software con funciones limitadas, se las arreglan para proporcionar a
+                los usuarios servicios y experiencias de calidad. <br><br>
+
+                A diferencia de las aplicaciones diseñadas para computadoras de escritorio, las aplicaciones móviles se
+                alejan de los sistemas de software integrados. En cambio, cada aplicación móvil proporciona una
+                funcionalidad aislada y limitada. Por ejemplo, puede ser un juego, una calculadora o un navegador web
+                móvil.<br><br>
+
+                Debido a los recursos de hardware limitados de los primeros dispositivos móviles, las aplicaciones
+                móviles evitaban la multifuncionalidad. Sin embargo, incluso si los dispositivos que se utilizan hoy en
+                día son mucho más sofisticados, las aplicaciones móviles siguen siendo funcionales. Así es como los
+                propietarios de aplicaciones móviles permiten a los consumidores seleccionar exactamente las funciones
+                que deben tener sus dispositivos. <br><br>
+
+                Estas aplicaciones pueden ser:
+            </p>
+            <ul>
+                <li>Aplicaciones Nativas</li>
+                <li>Aplicaciones Web</li>
+                <li>Aplicaciones Hibridas</li>
+            </ul>
+        </article>
+        <article id="appnat">
+            <h2>Aplicaciones Nativas</h2>
+            <p>Estas aplicaciones están diseñadas para un único sistema operativo móvil. Por eso se denominan nativos:
+                son nativos de una plataforma o dispositivo en particular. La mayoría de las aplicaciones móviles
+                actuales están diseñadas para sistemas como Android o iOS. En pocas palabras, no puedes instalar ni usar
+                una aplicación de Android en iPhone y viceversa. <br><br>
+
+                El principal beneficio de las aplicaciones nativas es su alto rendimiento y excelente Experiencia de
+                Usuario (Ux). Después de todo, los desarrolladores que los crean utilizan la Interfaz de Usuario (Ui)
+                del dispositivo nativo. El acceso a una amplia gama de API también ayuda a acelerar el trabajo de
+                desarrollo y ampliar los límites del uso de la aplicación. Las aplicaciones nativas solo se pueden
+                descargar de las tiendas de aplicaciones e instalarlas directamente en los dispositivos. Es por eso que
+                primero deben pasar por un estricto proceso de publicación. <br><br>
+
+                El inconveniente más importante de las aplicaciones nativas es su costo. Para crear, respaldar y
+                mantener una aplicación para Android e iOS, básicamente necesitas dos equipos de desarrollo. Como puedes
+                imaginarte, esto puede hacer que tu proyecto tenga más gastos.</p>
+        </article>
+        <article id="appweb">
+            <h2>Aplicaciones Web</h2>
+            <p>Las aplicaciones web son aplicaciones de software que se comportan de manera similar a las aplicaciones
+                móviles nativas y funcionan en dispositivos móviles. Sin embargo, existen diferencias significativas
+                entre las aplicaciones nativas y las aplicaciones web. Para empezar, las aplicaciones web utilizan
+                navegadores para ejecutarse y, por lo general, están escritas en CSS, HTML5 o JavaScript. <br><br>
+
+                Dichas aplicaciones redirigen al usuario a la URL y luego les ofrecen la opción de instalar la
+                aplicación. Simplemente crean un marcador en su página. Por eso requieren una memoria mínima del
+                dispositivo. <br><br>
+
+                Dado que todas las bases de datos personales se guardarán en el servidor, los usuarios solo pueden usar
+                la aplicación si tienen una conexión a Internet. Este es el principal inconveniente de las aplicaciones
+                web: siempre requieren una buena conexión a Internet. De lo contrario, corre el riesgo de ofrecer una
+                Experiencia de Usuario (Ux) insatisfactoria. <br><br>
+
+                Además, los desarrolladores no tienen tantas API que funcionen, a excepción de las funciones más
+                populares, como la geolocalización. El rendimiento también estará vinculado al trabajo del navegador y
+                la conexión de red.</p>
+        </article>
+        <article id="apphib">
+            <h2>Aplicaciones Hibridas</h2>
+            <p>Estas aplicaciones se crean utilizando tecnologías web como JavaScript, CSS y HTML 5. ¿Por qué se llaman
+                híbridas? Las aplicaciones híbridas funcionan básicamente como aplicaciones web disfrazadas de un
+                contenedor nativo. <br><br>
+
+                Las aplicaciones híbridas son fáciles y rápidas de desarrollar, lo cual es un claro beneficio. También
+                obtiene una única base de código para todas las plataformas. Esto reduce el costo de mantenimiento y
+                agiliza el proceso de actualización. <br><br>
+
+                Los desarrolladores también pueden aprovechar muchas API para funciones como giroscopio o
+                geolocalización. <br><br>
+
+                Por otro lado, las aplicaciones híbridas pueden carecer de velocidad y rendimiento. Además, es posible
+                que experimente algunos problemas de diseño, ya que es posible que la aplicación no tenga el mismo
+                aspecto en dos o más plataformas.</p>
+        </article>
+    </section>
+    <footer id="pie">
+        <h2>
+            <p>Mis redes sociales</p>
+        </h2>
+        <ul>
+            <li><a href="https://www.instagram.com/accounts/login/" target="_blank"><i
+                        class="fab fa-instagram fa-3x "></i>
+                    <p>Daypher Mont.</p>
+                </a></li>
+            <li><a href="https://www.youtube.com/channel/UChSFsDp8e5CDX-CmaGu6tSg" target="_blank"><i
+                        class="fab fa-youtube fa-3x"></i>
+                    <p>Daypher Montero</p>
+                </a></li>
+            <li><a href="https://www.facebook.com/david.montero.73113/" target="_blank"><i
+                        class="fab fa-facebook fa-3x"></i>
+                    <p>Daypher Montero</p>
+                </a></li>
+            <li><a href="https://twitter.com/?lang=es" target="_blank"><i class="fab fa-twitter fa-3x"></i>
+                    <p>Daypher Montero</p>
+                </a></li>
+        </ul>
+    </footer>
+</body>
+</html>
